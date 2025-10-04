@@ -1,5 +1,5 @@
 function main() {
-  let ss = ''
+  let ss = SpreadsheetApp.openByUrl(''); 
   // Define common query elements
   let metrics = ['metrics.clicks', 'metrics.impressions', 'metrics.conversions', 'metrics.conversions_value', 'metrics.cost_micros'];
   let dateSeg = 'segments.date';
